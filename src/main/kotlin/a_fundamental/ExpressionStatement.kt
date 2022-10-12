@@ -1,3 +1,5 @@
+package a_fundamental
+
 fun main(){
     val openOffice = 7
     val now = 8

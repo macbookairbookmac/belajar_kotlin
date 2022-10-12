@@ -1,3 +1,5 @@
+package data_classes_collection
+
 fun main() {
     val dataUser = DataUser("Jonry", 25)
 

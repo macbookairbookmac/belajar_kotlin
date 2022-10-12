@@ -1,3 +1,5 @@
+package functional_programming
+
 fun main() {
     val list = listOf(
         User("Jonry", 25),

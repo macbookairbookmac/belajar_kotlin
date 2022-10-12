@@ -1,3 +1,5 @@
+package functional_programming
+
 fun main() {
     // vararg dapat membuat kita menginput banyak dengan 1 parameter saja
     val number = sumNumber(25, 20, 30)

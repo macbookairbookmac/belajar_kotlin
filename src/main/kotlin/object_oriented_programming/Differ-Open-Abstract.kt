@@ -5,16 +5,38 @@ fun main() {
     val orang2 = Orang2("", 0)
     val childOrang = ChildOrang("", 0, true)
     childOrang.eat()
+
+    val childOrangInterface = ChildOrangInterface()
+    childOrangInterface.apply {
+        run()
+        walk()
+        breath()
+    }
 }
 
-class ChildOrang(name: String, age: Int, var isLife: Boolean): Orang(name, age){
-    fun longLife(): Int{
+class ChildOrangInterface(): OrangInterface{
+    override fun run() {
+
+    }
+
+    override fun walk() {
+
+    }
+
+    override fun breath() {
+
+    }
+
+}
+
+class ChildOrang(name: String, age: Int, var isLife: Boolean) : Orang(name, age) {
+    fun longLife(): Int {
         return 10
     }
 }
 
-class ChildOrang2(name: String, age: Int, var isLife: Boolean): Orang2(name, age){
-    fun longLife(): Int{
+class ChildOrang2(name: String, age: Int, var isLife: Boolean) : Orang2(name, age) {
+    fun longLife(): Int {
         return 10
     }
 
@@ -25,6 +47,12 @@ class ChildOrang2(name: String, age: Int, var isLife: Boolean): Orang2(name, age
     override fun sleep() {
         super.sleep()
     }
+}
+
+interface OrangInterface {
+    fun run()
+    fun walk()
+    fun breath()
 }
 
 abstract class Orang(var name: String, var age: Int) { // abstract tidak bisa langsung di pakai di `main()`

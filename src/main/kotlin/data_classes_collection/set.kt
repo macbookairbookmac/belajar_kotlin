@@ -1,3 +1,4 @@
+package data_classes_collection
 fun main() {
 
     // set adalah jenis collection untuk meyimpan nilai unik, tidak terduplikasi

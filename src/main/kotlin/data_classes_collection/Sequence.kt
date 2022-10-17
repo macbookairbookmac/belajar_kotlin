@@ -1,3 +1,4 @@
+package data_classes_collection
 fun main() {
     val list = (1..1000000).toList()
 

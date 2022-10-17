@@ -1,3 +1,4 @@
+package data_classes_collection
 fun main() {
     val numbers = listOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
     val alphabets = listOf('I', 'B', 'D', 'C', 'E', 'A', 'G', 'F')

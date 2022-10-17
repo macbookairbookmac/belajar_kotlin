@@ -8,3 +8,10 @@ Co bisa terjadi dengan ada atau tanpa Pa
 Pa terjadi bersamaan dengan Co dengan catatan jumlah task != jumlah CPU
 
 kalo jumlah task == jumlah CPU, dapat dipastikan hanya Pa, tidak ada Co
+
+#example
+seperti antrian coffee dengan 10 pesanan
+
+jika baristanya hanya 1 untuk menyelesaikannya, maka Co pasti dilakukan dan Pa tidak dilakukan.
+jika baristanya ada 2, Co dan Pa pasti dilakukan.
+jika jumlah barista == jumlah pesanan, maka Pa dilakukan dan Co tidak dilakukan.

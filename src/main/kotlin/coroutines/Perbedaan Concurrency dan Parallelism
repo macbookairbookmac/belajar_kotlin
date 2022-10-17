@@ -1,0 +1,10 @@
+Concurrency = Co
+Parallelism = Pa
+
+Co terjadi ketika 1 CPU mengerjakan banyak task sekaligus
+Pa terjadi ketika 2 atau lebih CPU mengerjakan task yang sudah di bagian sekaligus
+
+Co bisa terjadi dengan ada atau tanpa Pa
+Pa terjadi bersamaan dengan Co dengan catatan jumlah task != jumlah CPU
+
+kalo jumlah task == jumlah CPU, dapat dipastikan hanya Pa, tidak ada Co

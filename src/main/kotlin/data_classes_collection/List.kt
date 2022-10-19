@@ -1,4 +1,3 @@
-package data_classes_collection
 fun main() {
     val alphabetsLst = listOf('A','B','C','D','E') // defaultnya immutable/ tidak bisa dimodifikasi
     alphabetsLst.forEach {

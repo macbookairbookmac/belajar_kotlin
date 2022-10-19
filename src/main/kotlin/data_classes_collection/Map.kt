@@ -1,4 +1,3 @@
-package data_classes_collection
 fun main() {
 
     // jenis collection dengan pattern 'KEY' 'VALUE'
